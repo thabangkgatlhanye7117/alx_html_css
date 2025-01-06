@@ -1,0 +1,1 @@
+This is my ALX project called Implement a design from scratch and it contains a clone of a webpage designed by Nicholas Philippot
