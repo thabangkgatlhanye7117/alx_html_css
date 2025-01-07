@@ -10,6 +10,8 @@
 html, body {
 	height: 100%;
 	min-height: 100%;
+	width: 100%;
+	max-width: 100%;
 }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -30,14 +32,16 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.5;
+	width: 100%;
 }
 blockquote, q {
 	quotes: none;
@@ -56,19 +60,18 @@ table {
 /* Fonts and colors */
 
 body {
-	font-family: 'Josefin Sans', serif;
-	color: rgba(0, 0, 0, 0.8);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1, h2, h3, h4, h5, h6, header {
 	font-family: 'Yeseva One', sans-serif;
 }
 
 header {
-	border-bottom: 1px solid rgb(221,221,221);
+
 	transition: border-bottom-color 1s ease;
 }
 header a {
-	color: rgba(0, 0, 0, 0.8);
+	color: white;
 }
 aside {
 	background: #FAFAFA;
@@ -112,8 +115,9 @@ header .right {
 
 /* Header */
 header {
-	padding: 20px 0;
+	padding: 5px 0;
 	height: 80px;
+	
 }
 header ul {
 	list-style: none;
@@ -130,9 +134,7 @@ header li:first-child {
 header li a {
 	margin: 0 10px;
 }
-header li.logo {
-	font-size: 36px;
-}
+
 header a {
 	text-decoration: none;
 }
