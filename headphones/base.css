@@ -1,20 +1,21 @@
 /* Importing webfonts */
 /* (If you're learning CSS, you should disregard that) */
 
-@import url(https://fonts.googleapis.com/css?family=Yeseva+One);
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700italic,400italic);
-
+:root{
+  --textsize:13px;
+  --textweight:110;
+}
 
 /* CSS reset rules */
 
 html, body {
-	height: 100%;
+	height: 3000px;
 	min-height: 100%;
 	width: 100%;
 	max-width: 100%;
 }
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, img, ins, kbd, q, s, samp,
 small, strike, sub, sup, tt, var,
@@ -59,12 +60,9 @@ table {
 
 /* Fonts and colors */
 
-body {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-h1, h2, h3, h4, h5, h6, header {
-	font-family: 'Yeseva One', sans-serif;
-}
+
+
+
 
 header {
 
@@ -99,7 +97,8 @@ a {
 }
 
 article {
-	padding: 50px 15px;
+	padding: 65px 15px;
+	font-family: sourcesanpro;
 }
 article > *:first-child {
 	margin-top: 0;
@@ -158,16 +157,17 @@ footer {
 
 /* Text styles and margins */
 
-p {
-	margin-bottom: 15px;
-}
+
+
 h1 {
 	font-size: 36px;
 	margin: 40px 0 20px;
+	font-weight: bold;
 }
 h2 {
 	font-size: 32px;
-	margin: 30px 0 15px;
+	font-weight:550;
+	font-family: sourcesanpro;
 }
 h3 {
 	font-size: 28px;
@@ -176,17 +176,24 @@ h3 {
 h4 {
 	font-size: 20px;
 	font-weight: bold;
-	margin: 20px 0 10px;
+	
 }
 h5 {
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: bold;
-	margin: 15px 0 10px;
+	
 }
 h6 {
 	font-weight: bold;
 	margin: 5px 0;
 }
+p {
+  font-size:var(--textsize) ;
+	font-weight:var(--textweight)
+	fo
+
+	 }
+
 
 @media (max-width: 800px) {
   body.works_on_smartphone {
