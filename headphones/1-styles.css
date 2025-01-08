@@ -1,0 +1,41 @@
+:root{
+  --textsize:13px;
+  --textweight:110;
+}
+@font-face {
+  font-family:sourcesanpro ;
+  src: url(fonts/SourceSans3-VariableFont_wght.ttf);
+
+@font-face {
+  font-family:spincycle ;
+  src: url(fonts/SPINC__.TTF);
+ }
+
+  
+
+}
+body {
+  font-family: sourcesanpro;
+}
+
+
+.what-we-do{
+  text-align: center;
+ 
+}
+.media-section{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top:60px;
+  
+}
+.media{
+  border-style: solid;
+  height:200px ;
+  width: 200px;
+  display: block;
+  justify-content: center;
+  
+  
+}
