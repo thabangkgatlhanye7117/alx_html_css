@@ -1,0 +1,33 @@
+.icon-container{
+display: flex;
+width: 200px;
+justify-content: space-around;
+
+  
+}
+.logo{
+  width: 100px;
+
+}
+.footer-section{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+ padding-left: 150px;
+ padding-right: 150px;
+ padding-top: 50px;
+ color: white;
+}
+#copyrights{
+  color: grey;
+  justify-items: center;
+  padding-top:50px;
+  margin-top:50px;
+  padding-bottom: 50px;
+}
+footer{
+  text-align: center;
+  background-color: rgb(1, 1, 87);
+  
+}
