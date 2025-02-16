@@ -23,10 +23,33 @@ body {
   background-image: url(images/headphones_hero_2.jpg);
   background-size:cover ;
   padding-top:100px ;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   color: white;
   margin-top: 50px;
 }
+
+  
+
+.pentagone-sec {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    padding-left:50px ;
+    padding-right:50px ;
+    
+}
+.pentagone{
+  width: 150px;
+  height: 130px;
+  
+  align-self: center;
+  align-items: center;
+  padding-top: 25px;
+  background-image: url(images/pentagone.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+  
 
 
 

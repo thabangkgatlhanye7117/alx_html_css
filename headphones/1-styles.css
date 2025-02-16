@@ -6,21 +6,21 @@
   font-family:sourcesanpro ;
   src: url(fonts/SourceSans3-VariableFont_wght.ttf);
 
-@font-face {
-  font-family:spincycle ;
-  src: url(fonts/SPINC__.TTF);
- }
+
 
   
 
 }
 body {
   font-family: sourcesanpro;
+
+  padding-top: 20px;
 }
 
 
 .what-we-do{
   text-align: center;
+  font-family: sourcesanpro;
  
 }
 .media-section{
@@ -31,11 +31,14 @@ body {
   
 }
 .media{
-  border-style: solid;
-  height:200px ;
-  width: 200px;
-  display: block;
-  justify-content: center;
+  
+justify-content: center;
   
   
+}
+h5{
+font-size: small;
+}
+p{
+  font-size: small;
 }

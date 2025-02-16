@@ -6,10 +6,7 @@
   font-family:sourcesanpro ;
   src: url(fonts/SourceSans3-VariableFont_wght.ttf);
 
-@font-face {
-  font-family:spincycle ;
-  src: url(fonts/SPINC__.TTF);
- }
+
 
   
 
@@ -29,14 +26,56 @@ header {
   text-align: center;
   background-image: url(images/headphones_hero_1.jpg);
   background-size: cover;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   color: white;
   font-family: sourcesanpro;
 
   
 }
+header {
+	padding: 5px 0;
+	height: 80px;
+	
+}
+header ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  color: white;
+}
+header li {
+	display: inline;
+	vertical-align:middle;
+  color: white;
+}
+header li:first-child {
+	margin: 0;
+}
+header li a {
+	margin: 0 10px;
+}
+
+header a {
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight:550;
+	font-family: sourcesanpro;
+}
+p {
+  font-size:var(--textsize) ;
+	font-weight:var(--textweight)
+	
+
+	 }
+
+
+
+  
 .hero-text {
-  padding-top: 150px;
+  padding-top: 120px;
   
 }
 .logo {
@@ -60,9 +99,14 @@ button:hover{
 a:hover{
   color: #FF6565;
 }
-
-
-
-.what-we-do{
-  text-align: center;
+h5 {
+	font-size: 15px;
+	font-weight: bold;
 }
+ a{
+  color: white;
+ }   
+	
+
+  
+  
