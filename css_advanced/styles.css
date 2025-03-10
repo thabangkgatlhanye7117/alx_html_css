@@ -176,6 +176,7 @@ padding-left: 50px;
 }
 .phillip-profile{
   display: flex;
+  align-items: center;
 }
 .memberships{
   display: flex;
